@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+    
+
+    <title>DINOFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container_navbar">
+            <div class="container">            
+                <h2 class="logo">DINOFLIX</h2>
+                <nav>
+                    <a href="#">Início</a>
+                    <a href="#recomendacoes">Recomendações</a>
+                    <a href="#catalogo">Catálogo</a>
+                    <a href="#favoritos">Favoritos</a>
+                </nav>
+            </div>
+            
+            <div class="container_icones">                     
+                    <i class="fa-solid fa-magnifying-glass icones"></i>
+                    <i class="fa-solid fa-bell icones"></i>
+               
+                    <i class="fa-solid fa-circle-user user"></i>  
+                                 
+                    <i class="fa-solid fa-angle-down seta"></i>               
+            </div>
+        </div>
+    </header>
+    
+    <main>        
+        <div class="filme-principal">      
+            <div class="container">
+                <h3 class="titulo">Jurassic Park: O Parque dos Dinossauros</h3>
+                <p class="descricao">Um parque construído por um milionário tem dinossauros diversos como habitantes, extintos a sessenta e cinco milhões de anos. Isto é possível por ter sido encontrado um inseto fossilizado, que tinha sugado sangue destes dinossauros, de onde pôde-se isolar o DNA, o código químico da vida e, a partir deste ponto, recriá-los em laboratório. Mas, o que parecia ser um sonho se torna um pesadelo, quando a experiência sai do controle de seus criadores.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">                        
+                        <i class="fa-solid fa-play"></i>
+                        <a target="blank" href="https://www.youtube.com/watch?v=lc0UehYemQA">ASSISTIR AGORA</a>                                               
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a target="blank" href="https://www.adorocinema.com/noticias/filmes/noticia-140712/">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <section id="recomendacoes">
+            <div>
+                <div class="container">
+                    <h2 class="categorias">Recomendações</h2>
+                    <nav>
+                        <a href="#">Início</a>                        
+                    </nav>
+                </div> 
+                      
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-filme" src="img/rec1.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/rec2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/rec3.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/rec4.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/rec5.jpg" alt="" srcset="">
+                    </div>                                   
+                </div>
+            </div>        
+        </section>
+    </div>
+    
+    <div class="container">
+        <section id="catalogo">
+            <div>
+                <div class="container">
+                    <h2 class="categorias">Catálogo</h2>
+                    <nav>
+                        <a href="#">Início</a>                        
+                    </nav>
+                </div>           
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-filme" src="img/filme1.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/filme2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/filme3.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/filme4.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/filme5.jpg" alt="" srcset="">
+                    </div>                               
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="favoritos">
+            <div>
+                <div class="container">
+                    <h2 class="categorias">Favoritos</h2>
+                    <nav>
+                        <a href="#">Início</a>                        
+                    </nav>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-filme" src="img/filme1.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/filme2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/rec2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/rec4.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/rec5.jpg" alt="" srcset="">
+                    </div>                               
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/d1c1fbe6eb.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>    
+    <script src="js/owl/setup.js"></script>                                                                             
+</body>
+</html>
