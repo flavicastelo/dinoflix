@@ -1,2 +1,2 @@
 # dinoflix
- Projeto Clone da Netflix
+ Projeto Recriando a interface da Netflix.
