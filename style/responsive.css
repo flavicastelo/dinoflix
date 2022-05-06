@@ -1,8 +1,16 @@
 @media screen and (max-width: 320px) {
     
-    header nav a{
-        font-size: 12px;
+    header nav a{        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;        
     }
+
+    .filme-principal {
+        align-items: center;
+        text-align: center;
+    }
+   
 
 }
 

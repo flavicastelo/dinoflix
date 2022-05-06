@@ -85,7 +85,7 @@ header nav a{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50) 100%, rgba(0,0,0,.50) 100%), url('/img/banner.jpg');
+    background: linear-gradient(rgba(0,0,0,.50) 100%, rgba(0,0,0,.50) 100%), url('../img/banner.jpg');
 
     max-height: 100%;
     background-size: cover;
